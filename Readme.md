@@ -56,6 +56,10 @@ Superscript   <sup> </sup>     This is a <sup>superscript</sup> text
 
 Underline  <ins> </ins>  This is an <ins>underlined</ins> text
 
+Did you notice in the “untracked files” section there is a new folder __pycache__?
 
-
-
+In order for git to ignore certain specific files or folders, you will need to add a new
+file .gitignore.
+In your code folder create a new file .gitignore. To ignore __pycache__ folder, you
+can add the following code in .gitignore file:
+__pycache__/
